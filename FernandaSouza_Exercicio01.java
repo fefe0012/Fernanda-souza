@@ -6,7 +6,7 @@
 */
 // importa a classe scanner
 import java.util.Scanner;
-public class fernanda.java {
+public class FernandaSouza_Exercicio01.java {
     public static void main(String args[]){
         Scanner ler = new Scanner(System.in)
 //cria as variaveis tipo real
