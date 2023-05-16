@@ -13,13 +13,13 @@ public class Exercicio01 {
         double n1, n2, n3, n4, res;
 // inicializa as variaveis
         n1 = n2 = n3 = n4 =0;
-        System.out.print(insira um numero );
+        System.out.print("insira um numero");
         n1 = ler.nextDoubleln();
-        System.out.print(insira outro valor);
+        System.out.print("insira outro valor");
         n2 = ler.nextDoubleln();
-        System.out.print(insira um outro valor);
+        System.out.print("insira um outro valor");
         n3 = ler.nextDoubleln();
-        System.out.print(insira um outro numero);
+        System.out.print("insira um outro numero");
         n4 = ler.nextDoubleln();
         System.out.print("\nResultado:\n");
         System.out.print(n1+n2+n3+n4);
