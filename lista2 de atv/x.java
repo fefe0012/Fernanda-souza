@@ -6,7 +6,7 @@
  //importa a classe Scanner
  import java.util.Scanner;
  // classe principal
- public class javax2{
+ public class x{
  // metodo que sera executa primeiro
     public static void main(String[]args){
         // instancia um objeto "leitor"
