@@ -15,6 +15,7 @@
         double valorD= 15.0;
         System.out.println("insira o valor do produto");
         valorO = ler.nextDouble();
+      /*excecuta o codigo e logo em seguida mostra o resultado para o usuario */
         res=(15*valorO)/100;
         System.out.println(res);
     }
