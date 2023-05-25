@@ -24,6 +24,7 @@
            n2 = ler.nextInt();
           n3 = n1;
           n1 = n2; 
+      /*excecuta o codigo (troca de valores) e logo em seguida mostra o resultado para o usuario */
           System.out.println("o valor de " + n1 + " é "  + n2);
           n4 = n2;
           n4 = n3;
