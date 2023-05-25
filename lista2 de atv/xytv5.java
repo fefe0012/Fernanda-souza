@@ -15,6 +15,7 @@
         int res2 = 0;
         System.out.println("Digite um numero");
         n1 = ler.nextInt();
+       /*excecuta o codigo(mostra o antecessor e o sucessor) e logo em seguida mostra o resultado para o usuario */
         res=(n1+1);
         res2=(n1-1);
         System.out.println(" o seu sucessor é " +res+ " e o antecessor será " +res2);
