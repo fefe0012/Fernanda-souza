@@ -17,9 +17,11 @@
         n1 = ler.nextInt();
         
         /*excecuta o codigo e logo em seguida mostra o resultado para o usuario */
-       if ( n1 == 94 ){
+       if ( n1 >= 94 && n1<= 456){
            System.out.println("ACERTOU");
-       } else System.out.println("TENTE DENOVO");
+       } else { 
+           System.out.println("TENTE DENOVO");
+       }
         
      }
  } 
