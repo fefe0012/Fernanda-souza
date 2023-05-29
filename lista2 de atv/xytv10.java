@@ -17,7 +17,7 @@ import java.util.Scanner;
         n1 = ler.nextInt();
         
         /*excecuta o codigo e logo em seguida mostra o resultado para o usuario */
-       if ( n1%=0 ){
+       if (( (n1 % 2)== 0 )){
            System.out.println("É PAR");
             
        } else System.out.println("É IMPAR");
