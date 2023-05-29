@@ -11,7 +11,7 @@ public static void main(String[] args){
 Scanner ler= new Scanner (System.in );
 
 int k2= 0;
-String n1;
+char n1;
 double tz=1.50;
 double tv=0.0;
 String k9;
@@ -22,8 +22,8 @@ System.out.println ("Olá,seu dia foi bom?");
 System.out.println ("se sim digite S");
 System.out.println("se não digite N");
 // ler resposta do usuário 
- n1 = ler.nextLine();
-if (n1.equals("s")) { 
+ n1 = ler.nextLine().charAt(0); 
+if (n1== 's') { 
       System.out.println ("que bom");
         } else  {
                    System.out.println ("poxa");
