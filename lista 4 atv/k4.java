@@ -8,13 +8,17 @@ import java.util.Scanner;
 public class k4{
     public static void main(String[]args){
         Scanner ler = new Scanner(System.in);
-        char n1;
+        
+        int n1;
         System.out.println("digite um texto ou letras aleatorias.");
-        n1 = ler.nextLine().charAt(0);
+        n1 = ler.nextLine().length();
         if(n1 >= 10 ){
-            System.out.println(" vc digitou um palavrão!");
-        }      else (n1 <10 ){
-                 System.out.println(" vc digitou uma palavrinha");           
+             System.out.println(" vc digitou um palavrão!");
+            
+        }      else {
+          
+                 System.out.println(" vc digitou uma palavrinha");
         }
+                      
     }
 }
