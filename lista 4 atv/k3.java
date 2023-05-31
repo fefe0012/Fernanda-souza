@@ -33,7 +33,8 @@ import java.util.Scanner;
             
             a += r;
             System.out.println(" soma dos numeros inteiros são "+ a);
-        }
+        } 
+     // mostra o resultado da conta maluca pro usuario
           if (w > a){
               System.out.println( w + " é maior.");
           } else {
